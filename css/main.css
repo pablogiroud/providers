@@ -1,0 +1,20 @@
+
+body{
+    background-color: lightcyan;
+}
+
+h1, h3, h5 {
+    background-color: white;
+    color: lightblue;
+    display: inline;
+}
+
+h2, h4, h6{
+    background-color: lightblue;
+    color: white;
+}
+
+i{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}

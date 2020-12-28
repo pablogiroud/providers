@@ -1,0 +1,112 @@
+/* Default Screen */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-y: scroll;
+    cursor: default;
+    font-size: 10px
+}
+
+body {
+    height: 100%;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased !important;
+    -webkit-text-size-adjust: none !important;
+    font-smooth: antialiased !important;
+    letter-spacing: 0.5px;
+    background: #FFFFFF;
+    color: #282828
+}
+
+.setWrapper {
+    width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: -o-calc(100% - 40px);
+    width: calc(100% - 40px);
+    position: relative;
+    max-width: 1020px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+/* Structure */
+
+.setGuide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url(../assets/@2x/imageGuide.png) repeat-y top center / 1440px 32px;
+    z-index: 10000
+}
+
+.setBrand{
+    width: 100px;
+    height: 53px;
+    background: url(./img/logo.png);
+    margin: 16px 0;
+    float: left
+}
+
+nav{
+    width: 100%;
+    margin: 36px 0;
+    position: absolute;
+    text-align: center;
+}
+
+.setMenu{
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+
+
+
+.setSocial {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.setSocial li {
+    width: 24px;
+    height: 24px;
+    background: url(../assets/SVG/imageSocial.svg) no-repeat 0 0 / 500% 200%;
+    margin: 0 2px;
+    opacity: 0.5;
+    float: left
+}
+
+.setSocial li:hover { opacity: 1; }
+
+.setSocial .setF { background-position: 000% 000%;  }
+.setSocial .setT { background-position: 025% 000%;  }
+.setSocial .setY { background-position: 050% 000%;  }
+.setSocial .setI { background-position: 075% 000%;  }
+.setSocial .setK { background-position: 100% 000%;  }
+
+.setSocial li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.onTop .setSocial li { opacity: 1; }
+.onTop .setSocial li:hover { opacity: 0.5; }
+
+.onTop .setSocial .setF { background-position: 000% 100%;  }
+.onTop .setSocial .setT { background-position: 025% 100%;  }
+.onTop .setSocial .setY { background-position: 050% 100%;  }
+.onTop .setSocial .setI { background-position: 075% 100%;  }
+.onTop .setSocial .setK { background-position: 100% 100%;  }
+
