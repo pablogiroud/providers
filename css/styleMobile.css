@@ -1,0 +1,369 @@
+@media (max-width: 1024px) and (min-width: 720px) {
+    nav li a {
+        font-size: 12px
+    }
+    .setMap {
+        width: -webkit-calc(50% + 40px);
+        width: -moz-calc(50% + 40px);
+        width: -o-calc(50% + 40px);
+        width: calc(50% + 40px);
+        margin: 0;
+        left: inherit;
+        right: 0;
+        top: 0
+    }
+    .setPlants .setBInfo {
+        -webkit-transform: translate( -20px, -50%);
+        -moz-transform: translate( -20px, -50%);
+        -ms-transform: translate( -20px, -50%);
+        -o-transform: translate( -20px, -50%);
+        transform: translate( -20px, -50%);
+        right: 0;
+        top: 50%
+    }
+}
+@media (max-width: 720px) and (min-width: 0) {
+    .setWrapper,
+    .setSlide .setContent {
+        width: -webkit-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: calc(100% - 40px)
+    }
+    section.setPD {
+        padding: 52px 0 50px 0
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 16px auto 24px auto
+    }
+    h2 {
+        font-size: 12px;
+        line-height: 20px
+    }
+    h3 {
+        font-size: 12px;
+        line-height: 20px
+    }
+    h4 {
+        font-size: 12px;
+        line-height: 12px
+    }
+    h5 {
+        font-size: 12px;
+        line-height: 20px
+    }
+    h6 {
+        font-size: 12px;
+        line-height: 20px
+    }
+    p {
+        font-size: 12px;
+        line-height: 20px
+    }
+    a {
+        text-decoration: none
+    }
+    h1 span {
+        font-weight: 400
+    }
+    header {
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        background: #FFFFFF
+    }
+    header .setBrand {
+        width: 75px;
+        height: 40px;
+        background-size: 75px 80px;
+        background-position: 0 -40px;
+        margin: 12px 0
+    }
+    header .setMMenu {
+        display: block
+    }
+    nav {
+        width: 100%;
+        margin: 64px 0 0 0;
+        position: relative;
+        display: none
+    }
+    nav ul {
+        width: 100%;
+        overflow: hidden;
+        float: left
+    }
+    nav li {
+        width: 100%;
+        display: inline-block
+    }
+    nav .setMenu {
+        border-bottom: 1px solid #E3E3E3
+    }
+    nav .setMenu li {
+        border-top: 1px solid #E3E3E3;
+        padding: 10px 0;
+        margin: 0
+    }
+    nav .setMenu li a {
+        line-height: 24px;
+        font-size: 12px;
+        color: #282828
+    }
+    footer small,
+    footer small a {
+        width: 100%
+    }
+    footer small span {
+        display: none
+    }
+    .onTop .setBrand {
+        background-position: 0 -40px;
+        margin: 12px 0
+    }
+    .onTop .setMMenu {
+        background-position: 0 -32px
+    }
+    .onTop nav {
+        margin: 64px 0 0 0
+    }
+    .setSlide .setContent {
+        margin: 64px 0 0 0
+    }
+    .setBVideo {
+        display: none
+    }
+    .setSlide .setItem h1 {
+        margin: 16px 0 24px 0
+    }
+    .setPrev {
+        left: 12px
+    }
+    .setNext {
+        right: 12px
+    }
+    .setFlavors .setBT {
+        width: -webkit-calc(100% - 32px);
+        width: -moz-calc(100% - 32px);
+        width: -o-calc(100% - 32px);
+        width: calc(100% - 32px);
+        max-width: 360px
+    }
+    .setFlavors .setBT img {
+        margin: 0;
+        max-width: 150px
+    }
+    .setFlavors .setInfo {
+        width: -webkit-calc(100% - 150px);
+        width: -moz-calc(100% - 150px);
+        width: -o-calc(100% - 150px);
+        width: calc(100% - 150px)
+    }
+    .setFlavors .setInfo h1 {
+        margin: 12px auto 54px auto
+    }
+    .setSize .setBottle {
+        margin: 16px 0 0 0
+    }
+    .setSize .setBottle li {
+        float: left;
+        margin: 0 10px 0 0
+    }
+    .setCampain {
+        width: -webkit-calc(100vw - 20px);
+        width: -moz-calc(100vw - 20px);
+        width: -o-calc(100vw - 20px);
+        width: calc(100vw - 20px)
+    }
+    .setCampain .setGrid {
+        width: 100% !important;
+        height: 360px
+    }
+    .setCampain .setGrid .setBox {
+        margin: 5px
+    }
+    .setCampain .setGrid .setBox.setS {
+        width: -webkit-calc(50% - 10px);
+        width: -moz-calc(50% - 10px);
+        width: -o-calc(50% - 10px);
+        width: calc(50% - 10px);
+        height: auto !important;
+        padding-bottom: -webkit-calc(33.333333% - 10px);
+        padding-bottom: -moz-calc(33.333333% - 10px);
+        padding-bottom: -o-calc(33.333333% - 10px);
+        padding-bottom: calc(33.333333% - 10px)
+    }
+    .setCampain .setGrid .setBox.setD {
+        width: -webkit-calc(100% - 10px);
+        width: -moz-calc(100% - 10px);
+        width: -o-calc(100% - 10px);
+        width: calc(100% - 10px);
+        height: auto !important;
+        padding-bottom: -webkit-calc(66.666666% - 10px);
+        padding-bottom: -moz-calc(66.666666% - 10px);
+        padding-bottom: -o-calc(66.666666% - 10px);
+        padding-bottom: calc(66.666666% - 10px)
+    }
+    .setCampain .setGrid .setBox .setOverlay {
+        height: 100%
+    }
+    .setCampain .setGrid .setBox .setDate {
+        margin: 15px
+    }
+    .setCampain .setGrid .setBox h1 {
+        line-height: 18px;
+        font-size: 16px;
+        margin: 15px
+    }
+    .setCampain .setLegal {
+        margin: 2px 0 0 5px
+    }
+    .setTimeline li {
+        line-height: 20px;
+        font-size: 12px
+    }
+    #isHST .setColumn.setL {
+        order: 2
+    }
+    #isHST .setColumn.setR {
+        margin: 0 0 20px 0;
+        order: 1
+    }
+    .setHistory {
+        background-position: bottom 61px center
+    }
+    .setHistory.setPD {
+        padding: 52px 0 40px 0
+    }
+    .setHistory .setWrapper {
+        width: 100%
+    }
+    .setHistory h4 {
+        margin: 0 0 0 20px
+    }
+    .setAlbum li {
+        width: -webkit-calc(50% - 10px);
+        width: -moz-calc(50% - 10px);
+        width: -o-calc(50% - 10px);
+        width: calc(50% - 10px);
+        position: relative;
+        margin: 5px;
+        float: left
+    }
+    #isRPS {
+        height: auto
+    }
+    .setMap {
+        display: none
+    }
+    .setBInfo {
+        width: -webkit-calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -o-calc(100% - 40px);
+        width: calc(100% - 40px);
+        -webkit-transform: translate( 0, -50%);
+        -moz-transform: translate( 0, -50%);
+        -ms-transform: translate( 0, -50%);
+        -o-transform: translate( 0, -50%);
+        transform: translate( 0, -50%);
+        right: 20px
+    }
+    .setPlants {
+        height: -webkit-calc(100vh - 128px);
+        height: -moz-calc(100vh - 128px);
+        height: -o-calc(100vh - 128px);
+        height: calc(100vh - 128px)
+    }
+    .setPlant {
+        height: -webkit-calc(60vh - 128px);
+        height: -moz-calc(60vh - 128px);
+        height: -o-calc(60vh - 128px);
+        height: calc(60vh - 128px)
+    }
+    .setPlants .setBInfo {
+        width: 100%;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        right: inherit;
+        left: inherit;
+        top: inherit;
+        bottom: 0;
+        margin: 0
+    }
+    .setInput {
+        margin: 0 0 8px 0
+    }
+
+	.setInput .setHalf {
+		width: 100%;
+        margin: 0;
+	}
+
+	.setInput .setHalf:first-child {
+        margin: 0 0 8px 0;
+	}
+
+    input,
+    textarea,
+    select,
+    .selector,
+    .uploader {
+        padding: 0 0 0 15px
+    }
+    textarea {
+        height: 168px;
+        padding: 20px
+    }
+    .setColumn {
+        width: 100%;
+        float: none
+    }
+    .setColumn.setL {
+        margin: 0
+    }
+    .setColumn.setR {
+        margin: 0
+    }
+    .setSocial {
+        border-bottom: 5px solid #F92217;
+        position: relative;
+        text-align: center
+    }
+    .setSocial li {
+        margin: 20px 5px;
+        float: none;
+        opacity: 1
+    }
+    .setSocial .setF,
+    .onTop .setSocial .setF {
+        background-position: 0 -24px
+    }
+    .setSocial .setT,
+    .onTop .setSocial .setT {
+        background-position: -24px -24px
+    }
+    .setSocial .setY,
+    .onTop .setSocial .setY {
+        background-position: -48px -24px
+    }
+    .setSocial .setI,
+    .onTop .setSocial .setI {
+        background-position: -72px -24px
+    }
+    nav {
+        -webkit-transition: margin, opacity 0.25s ease-in-out;
+        -moz-transition: margin, opacity 0.25s ease-in-out;
+        -o-transition: margin, opacity 0.25s ease-in-out;
+        transition: margin, opacity 0.25s ease-in-out
+    }
+}
+@media screen and (device-aspect-ratio: 40/71) {
+    .setSlide .setItem {
+        height: 500px
+    }
+}
